@@ -1,15 +1,11 @@
 {
 	"ISO":"dk",
 
-	"examplePage_welcome":"Hej, og tak for at bruge min skabelon!",
-	"examplePage_semantic":"bygget med Semantic UI",
+	"username":"Brugernavn",
+	"password":"Kodeord",
 
-	"disconnect":"Afbryd",
-	"reconnect":"Forbind",
+	"goInsertEvent":"Opret ny begivenhed",
 
-	"connected":"Forbundet",
-	"connecting":"Forbinder...",
-	"failed":"Fejlede",
-	"waiting":"Venter...",
-	"offline":"Afbrudt"
+	"eventName":"Begivenhedens navn",
+	"submitEvent":"Opret begivenhed"
 }

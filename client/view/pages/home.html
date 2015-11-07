@@ -1,0 +1,19 @@
+<template name='home'>
+	<h1 class='ui header'>Home</h1>
+	<button class="ui basic button" id="go-insert-event">
+  		<i class="icon add"></i>
+  		{{_ "goInsertEvent"}}
+	</button>
+
+	<h2 class="ui header">Events</h2>
+	<div class="ui list">
+	{{#each events}}
+  		<div class="item">
+    <i class="calendar icon"></i>
+    <div class="content">
+      <a href="/event/{{_id}}">{{name}}</a>
+    </div>
+  </div>
+	{{/each}}
+</div>
+</template>

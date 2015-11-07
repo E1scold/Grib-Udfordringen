@@ -1,0 +1,31 @@
+<template name='authentication'>
+	{{#if currentUser}}
+	<div class='link item' id='go-user'>
+   		<i class='large user link icon'></i>{{currentUser.username}}
+   	</div>
+	<div class='link item'>
+   		<i class='large sign out link icon' id='sign-out'></i>
+   	</div>
+	{{else}}
+		{{#if loggingIn}}
+		<div class='link item'>
+			<i class='large notched circle loading icon'></i>
+		</div>
+		{{else}}
+		<div class='link item'>
+			<div class="ui transparent input">
+	        	<input type="text" id='username' placeholder="{{_ 'username'}}">
+	   		</div>
+	   		<div class="ui transparent input">
+	        	<input type="password" id='password' placeholder="{{_ 'password'}}">
+	   			<i class='large sign in link icon' id='sign-in'></i>
+	   			<i class='large icon'></i>
+	   			<i class='large add user link icon' id='sign-up'></i>
+	   		</div>
+	   	</div>
+	   	<div class='link item' id='sign-in-facebook'>
+	   		<i class='large facebook square icon'></i>
+	   	</div>
+	   	{{/if}}
+   	{{/if}}
+</template>

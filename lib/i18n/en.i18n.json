@@ -1,13 +1,11 @@
 {
 	"ISO":"gb",
-	"examplePage_welcome":"Hello, and thank you for using my example!",
-	"examplePage_semantic":"built with Semantic UI",
+	
+	"username":"Username",
+	"password":"Password",
 
-	"disconnect":"Disconnect",
-	"reconnect":"Reconnect",
-	"connected":"Connected",
-	"connecting":"Connecting...",
-	"failed":"Failed",
-	"waiting":"Waiting...",
-	"offline":"Disconnected"
+	"goInsertEvent":"Create new event",
+
+	"eventName":"Event name",
+	"submitEvent":"Create event"
 }

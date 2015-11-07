@@ -1,8 +1,10 @@
 <template name='navigation'>
-	<div class='ui fixed borderless menu'>
-		<!--menu items here-->
+	<div class='ui borderless menu'>
+		<div class="header link item" id='go-home'>
+    		<h1>Grib Udfordringen</h1>
+  		</div>
 		<div class='right menu'>
-			<!--right side menu items here-->
+			{{> authentication}}
 			{{> toggleLanguage}}
 		</div>
 	</div>
