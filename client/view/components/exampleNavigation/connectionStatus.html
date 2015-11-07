@@ -1,0 +1,17 @@
+<template name='connectionStatus'>
+	<div class='ui dropdown item'>
+		<i class='{{connection.icon}} icon'></i>
+		<i class="dropdown icon"></i>
+		<div class='menu'>
+			<div class='header'>
+				{{_ connection.status}}
+			</div>
+			<div class="divider"></div>
+			{{#if connection.connected}}
+				<div class='item' id='disconnect'>{{_ 'disconnect'}}</div>
+			{{else}}
+				<div class='item' id='reconnect'>{{_ 'reconnect'}}</div>
+			{{/if}}
+		</div>
+	</div>
+</template>

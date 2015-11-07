@@ -1,0 +1,6 @@
+/* Component-specifc styles here */
+
+/* a little extra margin to turn the label-rows into more of a grid-structure :) */
+.ui.label {
+  margin: 0.14285714em 0.14285714em;
+}

@@ -1,0 +1,9 @@
+<template name='exampleLayout'>
+	{{> exampleNavigation}}
+	<br>
+	<div class='ui main center aligned container'>
+	<!--page-specific content-->
+		{{> Template.dynamic template=page}}
+	</div>
+	<!--content right of/below the page-->
+</template>

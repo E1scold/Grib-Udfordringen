@@ -1,0 +1,14 @@
+<template name='toggleLanguage'>
+	<div class="ui dropdown item">
+      			<i class='flag {{_ "ISO" lang=languageTag}}'></i>
+            <i class="dropdown icon"></i>
+      			<div class="menu">
+      				{{#each languages}}
+        				<a class="item toggle-lang" data-value='{{tag}}'>
+        					<i class='flag {{_ "ISO" lang=tag}}'></i>
+        					{{name}}
+        				</a>
+        			{{/each}}
+      			</div>
+    		</div>
+</template>

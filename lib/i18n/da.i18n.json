@@ -1,0 +1,15 @@
+{
+	"ISO":"dk",
+
+	"examplePage_welcome":"Hej, og tak for at bruge min skabelon!",
+	"examplePage_semantic":"bygget med Semantic UI",
+
+	"disconnect":"Afbryd",
+	"reconnect":"Forbind",
+
+	"connected":"Forbundet",
+	"connecting":"Forbinder...",
+	"failed":"Fejlede",
+	"waiting":"Venter...",
+	"offline":"Afbrudt"
+}

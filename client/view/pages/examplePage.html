@@ -1,0 +1,18 @@
+<template name='examplePage'>
+	<br>
+	<h1 class='ui center aligned header'>
+		{{_ 'examplePage_welcome'}}
+	</h1>
+	<h2 class='ui center aligned header'>
+		<a href='http://semantic-ui.com/' target="_blank" class='ui mini image'>
+			<img src="{{toAbsolute 'example.png'}}">
+		</a>
+		<div class='content'>
+			{{_ 'examplePage_semantic'}}
+		</div>
+	</h2>
+	<br>
+	{{> insertExample}}
+	<br>
+	{{> listExamples}}
+</template>

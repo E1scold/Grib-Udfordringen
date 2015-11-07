@@ -1,0 +1,13 @@
+{
+	"ISO":"gb",
+	"examplePage_welcome":"Hello, and thank you for using my example!",
+	"examplePage_semantic":"built with Semantic UI",
+
+	"disconnect":"Disconnect",
+	"reconnect":"Reconnect",
+	"connected":"Connected",
+	"connecting":"Connecting...",
+	"failed":"Failed",
+	"waiting":"Waiting...",
+	"offline":"Disconnected"
+}
