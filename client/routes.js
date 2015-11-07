@@ -1,5 +1,6 @@
 //routes that don't render pages
 
+/*
 FlowRouter.route('/', {
 	name:'exampleRoot',
 	triggersEnter:[(context, redirect) => {
@@ -17,3 +18,4 @@ ExampleRoutes.route('/clear', {
 		FlowRouter.go('examplePage')
 	}
 })
+*/
